@@ -1,0 +1,23 @@
+#graphs {
+	display: flex;
+}
+
+#scatter {
+	width: min(80vh, 100vw);
+	height: min(80vh, 100vw);
+	/* width: 80vh; */
+	/* height: 80vh; */
+}
+
+#line {
+	width: 50vw;
+	height: 50vh;
+}
+
+.information {
+	display: flex;
+}
+
+h3 {
+	margin: 10px;
+}

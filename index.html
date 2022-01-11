@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="https://cdn.plot.ly/plotly-2.8.3.min.js"></script>
+
+	<link rel="stylesheet" href="style.css">
+
+	<title>Monti Carlo Approximation of Pi</title>
+</head>
+<body>
+	<div>
+		<h1>Monti Carlo Approximation of Pi</h1>
+		<button id="generate" onmousedown="generate();">Generate Point</button>
+		<div class="information">
+			<h3>Number of Points:</h3>
+			<p id="npoints">0</p>
+			<h3>Approximation: </h3>
+			<p id="approximation">0</p>
+		</div>
+	</div>
+
+	<div id="graphs">
+		<div id="scatter"></div>
+		<div id="line"></div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
